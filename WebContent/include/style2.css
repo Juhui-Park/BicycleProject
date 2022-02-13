@@ -1,0 +1,97 @@
+
+h1{
+	text-align: center;
+	font: bold 48px "arial";
+	margin-top: 30px;
+}
+button{
+	style="color: #fff; 
+	background: black; 
+	font-size: 2em; 
+	border-radius: 0.5em; 
+	padding: 5px 20px;
+}
+form{
+	text-align: center;
+}
+
+form .group {
+	margin: 30px auto;
+	width: 1100px;
+	text-align: center;
+	
+}
+
+form .group h1 {
+	font: 36px/1px "arial";
+    text-shadow: 1px 1px 2px gray;
+    display: inline-block;
+}
+
+form .group h2 {
+	font: bold 36px/1px "arial";
+    text-shadow: 1px 1px 2px gray;
+}
+
+form .group .select {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+form .group #input{
+	width: 300px;
+	height: 50px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 3px solid black;
+	border-radius: 5px;
+	text-align: right;
+	margin-top:30px;
+	background: none;
+}
+
+form .group .select .form-control{
+	margin-left: 20px;
+    width: 600px;
+	font: 12px Arial;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 3px solid black;
+	border-radius: 5px;
+}
+
+form .group .select option {
+	background: white;
+}
+
+form #btn {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/* 
+resultPredTime.jsp 
+*/
+
+.container {
+	margin:0 auto;
+	width: 1300px;
+	height: 720px;
+	text-align: center;
+}
+
+.container .group{
+	margin: 40px 0 40px 40px
+}
+.container .group1 p {
+	display: inline-block;
+	margin: 20px 0 200px;
+	font: bold 28px "arial";
+	color: red;
+	text-shadow: 1px 1px 2px black;
+	line-height: normal;
+}
+.container div .btn {
+	margin: 20px;
+}

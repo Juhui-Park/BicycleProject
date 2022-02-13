@@ -1,0 +1,29 @@
+
+#content{
+	column-gap: 20px;
+	column-rule:1px solid #ddccb5;
+}
+@media screen and (min-width:1024px){
+	#content{
+	color: black;
+	column-count: 4;
+	}
+}
+@media screen and (min-width:640px)and (max-width:1023px){
+	#content{
+	color: black;
+	column-count: 3;
+	}
+}
+@media screen and (min-width:420px) and (max-width:639px){
+	#content{
+	color: black;
+	column-count: 2;
+	}
+}
+@media screen and (max-width:419px){
+	#content{
+	color: black;
+	column-count: 1;
+	}
+}
